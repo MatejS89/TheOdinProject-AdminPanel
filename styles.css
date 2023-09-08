@@ -2,6 +2,7 @@ body {
   font-family: "Roboto", sans-serif;
   margin: 0;
   --accent-color-main: #1992d4;
+  --main-background-color: #e2e8f0;
   font-weight: 550;
   letter-spacing: 0.05rem;
 }
@@ -27,6 +28,7 @@ ul {
 
 .main-container {
   grid-area: main;
+  background-color: var(--main-background-color);
 }
 
 .sidebar-container {
