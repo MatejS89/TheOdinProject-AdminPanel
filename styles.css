@@ -36,7 +36,7 @@ ul {
   grid-area: sidebar;
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 30px;
 }
 
 .sidebar-logo {
@@ -55,9 +55,10 @@ ul {
   align-items: center;
 }
 
-.nav-list-item > img {
+.nav-list-item > svg {
   height: 1.3rem;
-  margin-right: 20px;
+  fill: white;
+  margin-right: 25px;
 }
 
 .nav-list-item {
