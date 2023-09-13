@@ -45,6 +45,10 @@ li {
   max-width: min(60%, 700px);
 }
 
+.search-bar-container > label {
+  display: none;
+}
+
 .search-bar-container > svg {
   fill: black;
   flex: 0 0 1.3rem;
@@ -59,6 +63,18 @@ li {
   padding: 0.4rem 0.7rem;
 }
 
+.header-icon-list {
+  width: 180px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+
+.header-icon-list > li > svg {
+  height: 1.3rem;
+}
+
 .main-container {
   background-color: var(--main-background-color);
   grid-area: main;
@@ -71,7 +87,7 @@ li {
   flex-direction: column;
   gap: 30px;
   grid-area: sidebar;
-  padding: 20px;
+  padding: 20px 40px;
 }
 
 .sidebar-logo {
